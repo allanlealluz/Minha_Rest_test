@@ -1,13 +1,13 @@
 <?php
+use app\controllers\HomeController;
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $app = AppFactory::create();
 
-$app->get('/', function (Request $request, Response $response, array $args) {
-    VAR_DUMP('HOME');
-    return $response;
-});
-
+$app->get('/', [HomeController::class, 'index']);
 $app->run();
+?>

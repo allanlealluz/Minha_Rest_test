@@ -10,6 +10,7 @@ class ComposerStaticInitcab7062c4efa485f30c6499598427c9f
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        'c6b54309188d813d011c4f1f58c5f7b0' => __DIR__ . '/../..' . '/app/helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -29,10 +30,6 @@ class ComposerStaticInitcab7062c4efa485f30c6499598427c9f
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
-        ),
-        'N' => 
-        array (
-            'Nyholm\\Psr7\\' => 12,
         ),
         'L' => 
         array (
@@ -79,10 +76,6 @@ class ComposerStaticInitcab7062c4efa485f30c6499598427c9f
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'Nyholm\\Psr7\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nyholm/psr7/src',
         ),
         'League\\Plates\\' => 
         array (

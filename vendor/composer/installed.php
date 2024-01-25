@@ -3,7 +3,7 @@
         'name' => '52142/minha_rest_test',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '79aef3523fccd56616fc42f6557c9e11aa07735b',
+        'reference' => 'dc62e25aa880e8689a3f6dc8def286a44d80088e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '52142/minha_rest_test' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '79aef3523fccd56616fc42f6557c9e11aa07735b',
+            'reference' => 'dc62e25aa880e8689a3f6dc8def286a44d80088e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -45,21 +45,6 @@
             'install_path' => __DIR__ . '/../nikic/fast-route',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'nyholm/psr7' => array(
-            'pretty_version' => '1.8.1',
-            'version' => '1.8.1.0',
-            'reference' => 'aa5fc277a4f5508013d571341ade0c3886d4d00e',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../nyholm/psr7',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'php-http/message-factory-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '1.0',
-            ),
         ),
         'psr/container' => array(
             'pretty_version' => '2.0.2',
